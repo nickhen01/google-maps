@@ -5,3 +5,4 @@ pkg/*
 coverage/
 .rvmrc
 .DS_Store
+tmp/*

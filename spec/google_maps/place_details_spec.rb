@@ -30,6 +30,22 @@ describe Google::Maps::PlaceDetails do
       expect(@details.data.address_components).not_to be_empty
     end
 
+    it 'should have a rating' do
+      expect(@details.rating).to eq 4.7
+    end
+
+    it 'should have opening hours' do
+      expect(@details.opening_hours).not_to be_empty
+    end
+
+    it 'should have types' do
+      expect(@details.types).to eq ["establishment"]
+    end
+
+    it 'should have a phone number' do
+      expect(@details.formatted_phone_number).to eq '020 1234 5678'
+    end
+
     context '#address_components' do
       it 'allows easy access by type' do
         expect(@details.address_components.postal_code.long_name).to eq '2009'

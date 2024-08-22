@@ -69,6 +69,22 @@ module Google
         @data.website
       end
 
+      def rating
+        @data.rating
+      end
+
+      def opening_hours
+        @data.opening_hours
+      end
+
+      def types
+        @data.types
+      end
+
+      def formatted_phone_number
+        @data.formatted_phone_number
+      end
+
       def address
         @data.formatted_address
       end

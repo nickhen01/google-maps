@@ -85,6 +85,12 @@ module Google
         @data.formatted_phone_number
       end
 
+      def photo_url(photo_reference)
+        args = { photo_reference: photo_reference, maxheight: 400, maxwidth: 700, key: Google::Maps.api_key }
+        query_string = URI.encode_www_form(args)
+        "#{Google::Maps.end_point}place/photo?#{query_string}"
+      end
+
       def address
         @data.formatted_address
       end

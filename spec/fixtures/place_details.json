@@ -125,7 +125,29 @@
       "url" : "https://plus.google.com/111840715355681175070/about?hl=en-US",
       "utc_offset" : 660,
       "vicinity" : "5/48 Pirrama Road, Pyrmont",
-      "website" : "http://www.google.com.au/"
+      "website" : "http://www.google.com.au/",
+      "opening_hours" : {
+         "open_now" : true,
+         "periods" : [
+            {"close" : {"day" : 0, "time" : "2200"}, "open" : {"day" : 0, "time" : "1200"}},
+            {"close" : {"day" : 1, "time" : "2200"}, "open" : {"day" : 1, "time" : "1200"}},
+            {"close" : {"day" : 2, "time" : "2200"}, "open" : {"day" : 2, "time" : "1200"}},
+            {"close" : {"day" : 3, "time" : "2230"}, "open" : {"day" : 3, "time" : "1200"}},
+            {"close" : {"day" : 4, "time" : "2230"}, "open" : {"day" : 4, "time" : "1200"}},
+            {"close" : {"day" : 5, "time" : "2330"}, "open" : {"day" : 5, "time" : "1200"}},
+            {"close" : {"day" : 6, "time" : "2330"}, "open" : {"day" : 6, "time" : "1200"}}
+         ],
+         "weekday_text" : [
+            "Monday: 12:00 – 10:00 PM",
+            "Tuesday: 12:00 – 10:00 PM",
+            "Wednesday: 12:00 – 10:30 PM",
+            "Thursday: 12:00 – 10:30 PM",
+            "Friday: 12:00 – 11:30 PM",
+            "Saturday: 12:00 – 11:30 PM",
+            "Sunday: 12:00 – 10:00 PM"
+         ]
+      },
+      "formatted_phone_number" : "020 1234 5678"
    },
    "status" : "OK"
 }

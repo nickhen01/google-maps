@@ -6,3 +6,4 @@ coverage/
 .rvmrc
 .DS_Store
 tmp/*
+.idea

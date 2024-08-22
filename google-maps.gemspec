@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('coveralls', '~> 0.8')
   s.add_development_dependency('mocha', '~> 1.7.0')
   s.add_development_dependency('rake', '~> 12.3.2')
-  s.add_development_dependency('rspec', '~> 3.9.0')
+  s.add_development_dependency('rspec', '~> 3.13.0')
   s.add_development_dependency('rspec-collection_matchers', '~> 1.1')
   s.add_development_dependency('rspec-its', '~> 1.2')
   s.add_development_dependency('rubocop', '~> 0.79.0')
